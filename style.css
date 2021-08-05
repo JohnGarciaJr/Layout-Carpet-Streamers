@@ -1,0 +1,123 @@
+
+body {
+  background-color: lightskyblue;
+  margin: 0;
+}
+
+header {
+  background-color: blue;
+  height: 100px;
+  
+}
+
+img {
+  /*background-color: pink;*/
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+ 
+.nav ul {
+  /*background-color: blue;*/
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: right;
+}
+
+.nav li {
+  /*background-color: blue;*/
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+ /*
+.nav a {
+  background-color: orange;
+}
+*/
+section {
+  /*background-color: chocolate;*/
+  width: 840px;
+  margin: 50px auto 0 auto;
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+/*I decided to make both containers match color scheme*/
+#quote-offer-container {
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-right: 40px;
+  height: 200px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#quote-form-container {
+  background-color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+#quote-form {
+  /*background-color: salmon;*/
+  text-align: center;
+  margin: 10px;
+  line-height: 2;
+}
+
+.form-feild {
+  margin-bottom: 15px;
+  line-height: 2;
+}
+
+button {
+  border: 0.dpx solid blue;
+  background-color: white;
+  color: blue;
+  height: 40px;
+  width:  80px;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+/*Here is the hero image*/
+div.picture1 {
+  width: 1000px;
+  height: 300px;
+  background-image: url("./img/EarthHero.jpg");
+  margin: auto;
+}
+
+footer {
+  text-align: right;
+  font-style: italic;
+  margin-right: 20px;
+}
